@@ -25,5 +25,4 @@ const Home = () => {
     </StyledHomeCt>
   );
 };
-
 export default Home;

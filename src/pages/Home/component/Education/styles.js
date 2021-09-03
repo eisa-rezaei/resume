@@ -26,10 +26,13 @@ export const StyledHomeEducationSection = styled.section`
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 `;
 export const StyledHomeEducationArticle = styled.article`
   width: 350px;
-  min-height: 500px;
+  min-height: 550px;
   margin-top: 40px;
   display: flex;
   flex-direction: column;
@@ -47,11 +50,7 @@ export const StyledHomeEducationArticle = styled.article`
     }
   }
   @media (max-width: 600px) {
-    & header {
-      font-size: 0.8rem;
-    }
-    & h5 {
-      font-size: 0.8rem;
-    }
+    min-height: auto;
+    border-bottom: 1px solid gray;
   }
 `;

@@ -15,7 +15,7 @@ export const StyledHomeUserDetail = styled.section`
     display: none;
   }
   & span {
-    width: 40vw;
+    width: 50vw;
     height: 100%;
     background-color: #eef3ee;
     border-radius: 300px;
@@ -31,6 +31,15 @@ export const StyledHomeUserDetail = styled.section`
     }
   }
 
+  @media (max-width: 900px) {
+    & span {
+      width: 100%;
+      height: 90%;
+      & img {
+        border: 10px solid #fff;
+      }
+    }
+  }
   @media (max-width: 600px) {
     height: auto;
     flex-direction: column;
