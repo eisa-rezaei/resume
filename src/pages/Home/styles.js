@@ -5,9 +5,9 @@ export const StyledHomeCt = styled.main`
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  padding: 5vh 0;
+  padding-top: 5vh;
   @media (max-width: 600px) {
-    padding: 1vh 0;
+    padding-top: 1vh;
   }
 `;
 

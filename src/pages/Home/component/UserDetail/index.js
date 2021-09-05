@@ -1,5 +1,5 @@
 import React from "react";
-import userImage from "../../../../assets/user-image-3.png";
+import userImage from "../../../../assets/projects/user-image.png";
 import {
   StyledHomeUserDetail,
   StyledHomeUserDetailSinglePart,
@@ -16,8 +16,8 @@ const index = () => {
         <StyledHomeUserDetailSinglePartDetail>
           <h5>BIOGRAPHY</h5>
           <p>
-            work for money and design for love <br />I am jesus , an Ui,UX
-            designer ,<br /> based in IRAN
+            I am jesus, A frontend technologies curios person who is trying
+            every new library a day after release.
           </p>
         </StyledHomeUserDetailSinglePartDetail>
         <StyledHomeUserDetailSinglePartDetail>
@@ -47,7 +47,7 @@ const index = () => {
           textalign="right"
         >
           <h5>years of Experience</h5>
-          <p>2</p>
+          <p>3</p>
         </StyledHomeUserDetailSinglePartDetail>
         <StyledHomeUserDetailSinglePartDetail
           align="flex-end"

@@ -13,14 +13,16 @@ const index = () => {
       <h2>My Education & Experience</h2>
       <StyledHomeEducationSection>
         <StyledHomeEducationArticle>
-          <header> 2000 </header>
-          <span>
-            <h5>{Education.first_part.title}</h5>
-            <p>{Education.first_part.caption}</p>
-          </span>
+          <header> 2017 - 2019 </header>
+          {Education.first_part.map(({ title, caption }, index) => (
+            <span key={index}>
+              <h5>{title}</h5>
+              <p>{caption}</p>
+            </span>
+          ))}
         </StyledHomeEducationArticle>
         <StyledHomeEducationArticle>
-          <header> 2017 - 2019 </header>
+          <header> 2019 - 2020</header>
           {Education.secound_part.map(({ title, caption }, index) => (
             <span key={index}>
               <h5>{title}</h5>

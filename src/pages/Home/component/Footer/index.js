@@ -1,15 +1,13 @@
 import React from "react";
 import { FaGithub, FaInstagram, FaLinkedin, FaTelegram } from "react-icons/fa";
-import { StyledHomeHeader, StyledHomeHeaderIconsBar } from "./styles";
+import { StFooterContaienr, StyledFooterIconsBar } from "./styles";
 
-const index = () => {
+const Footer = () => {
   return (
-    <StyledHomeHeader>
-      <span>
-        <h5>works</h5>
-        <h5>contact</h5>
-      </span>
-      <StyledHomeHeaderIconsBar>
+    <StFooterContaienr>
+      <span>Personal Website</span>
+      <span> CopyRight EisaRezaei {new Date().getFullYear()} </span>
+      <StyledFooterIconsBar>
         <a
           href="https://instagram.com/eisa-rezaeei"
           target="_blank"
@@ -34,9 +32,9 @@ const index = () => {
         >
           <FaLinkedin />
         </a>
-      </StyledHomeHeaderIconsBar>
-    </StyledHomeHeader>
+      </StyledFooterIconsBar>
+    </StFooterContaienr>
   );
 };
 
-export default index;
+export default Footer;

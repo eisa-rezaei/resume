@@ -11,6 +11,7 @@ export const StyledHomeEducation = styled.div`
   padding: 70px 10vw;
   & h2 {
     font-size: 1.8rem;
+    font-family: "Kaisei HarunoUmi", serif;
   }
   @media (max-width: 600px) {
     padding: 30px 5vw;

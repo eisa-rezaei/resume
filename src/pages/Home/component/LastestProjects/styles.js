@@ -9,6 +9,7 @@ export const StyledHomeLastestProjectCt = styled.div`
   & h2 {
     font-size: 2.3rem;
     margin-bottom: 40px;
+    font-family: "Kaisei HarunoUmi", serif;
   }
   @media (max-width: 600px) {
     & h2 {

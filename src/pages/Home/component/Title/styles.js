@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const StyledHomeTitle = styled.div`
   width: 100%;
   height: 40vh;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: capitalize;
   display: flex;
   flex-direction: column;
@@ -14,6 +13,7 @@ export const StyledHomeTitle = styled.div`
     width: 100%;
     font-size: 2.5rem;
     text-align: center;
+    font-family: "Kaisei HarunoUmi", serif;
   }
 
   @media (max-width: 600px) {
