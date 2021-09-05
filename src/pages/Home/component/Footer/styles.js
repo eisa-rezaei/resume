@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StFooterContaienr = styled.main`
+export const StFooterContainer = styled.main`
   width: 100vw;
   min-height: 80px;
   padding: 50px;
@@ -8,6 +8,10 @@ export const StFooterContaienr = styled.main`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  @media (max-width: 600px) {
+    padding: 35px;
+    font-size: 0.8rem;
+  }
 `;
 
 export const StyledFooterIconsBar = styled.div`
@@ -25,5 +29,6 @@ export const StyledFooterIconsBar = styled.div`
   }
   @media (max-width: 600px) {
     width: 30vw;
+    font-size: 1rem;
   }
 `;

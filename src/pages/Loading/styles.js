@@ -25,7 +25,7 @@ export const StLoading = styled.div`
   align-items: flex-end;
   justify-content: space-evenly;
   & span {
-    min-width: 20px;
+    min-width: 2.5%;
     background-color: seagreen;
   }
   & span:nth-child(1) {

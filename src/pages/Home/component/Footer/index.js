@@ -1,10 +1,10 @@
 import React from "react";
 import { FaGithub, FaInstagram, FaLinkedin, FaTelegram } from "react-icons/fa";
-import { StFooterContaienr, StyledFooterIconsBar } from "./styles";
+import { StFooterContainer, StyledFooterIconsBar } from "./styles";
 
 const Footer = () => {
   return (
-    <StFooterContaienr>
+    <StFooterContainer>
       <span>Personal Website</span>
       <span> CopyRight EisaRezaei {new Date().getFullYear()} </span>
       <StyledFooterIconsBar>
@@ -33,7 +33,7 @@ const Footer = () => {
           <FaLinkedin />
         </a>
       </StyledFooterIconsBar>
-    </StFooterContaienr>
+    </StFooterContainer>
   );
 };
 
