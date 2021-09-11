@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const StyledHomeCt = styled.main`
   width: 100vw;
+  padding-top: 5vh;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
-  padding-top: 5vh;
   @media (max-width: 600px) {
     padding-top: 1vh;
   }

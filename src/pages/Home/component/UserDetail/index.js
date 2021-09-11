@@ -63,7 +63,7 @@ const index = () => {
           textalign="right"
         >
           <h5>CLIENTS ON WORLDWIDE</h5>
-          <p>+10</p>
+          <p>+5</p>
         </StyledHomeUserDetailSinglePartDetail>
         <StyledHomeUserDetailSinglePartDetail
           align="flex-end"

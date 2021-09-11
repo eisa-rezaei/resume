@@ -9,7 +9,7 @@ const Footer = () => {
       <span> CopyRight EisaRezaei {new Date().getFullYear()} </span>
       <StyledFooterIconsBar>
         <a
-          href="https://instagram.com/eisa-rezaeei"
+          href="https://instagram.com/Eisa_rezaeei"
           target="_blank"
           rel="noreferrer"
         >

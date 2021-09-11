@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const StFooterContainer = styled.main`
   width: 100vw;
-  min-height: 80px;
-  padding: 50px;
+  height: auto;
+  padding: 30px;
+  font-size: 0.9rem;
   display: flex;
   flex-direction: row;
   align-items: center;

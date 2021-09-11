@@ -24,7 +24,7 @@ export const ADVANTAGE = [
   { icon: <JavaScript />, title: "JS", percent: "60" },
   { icon: <React />, title: "REACT", percent: "70" },
   { icon: <Redux />, title: "REDUX", percent: "50" },
-  { icon: <SiStyledComponents />, title: "STYLED COMPONENTS", percent: "80" },
+  { icon: <SiStyledComponents />, title: "STYLED COMPONENTS", percent: "90" },
   { icon: <Gatsby />, title: "GATSBY/NEXT", percent: "40" },
 ];
 
@@ -83,7 +83,7 @@ export const projects = [
     image: FoxxyAppLanding,
     platform: "react.js",
     output: "https://demo5.i3o.ir/",
-    src: "https://github.com/eisa-rezaei/Flow-App-Landingr",
+    src: "https://github.com/eisa-rezaei/Flow-App-Landing",
   },
 ];
 

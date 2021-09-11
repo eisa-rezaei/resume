@@ -11,7 +11,7 @@ const index = () => {
       </span>
       <StyledHomeHeaderIconsBar>
         <a
-          href="https://instagram.com/eisa-rezaeei"
+          href="https://instagram.com/Eisa_rezaeei"
           target="_blank"
           rel="noreferrer"
         >
