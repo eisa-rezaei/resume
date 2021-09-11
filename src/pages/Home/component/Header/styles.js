@@ -6,14 +6,16 @@ export const StyledHomeHeader = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 10vw;
+  padding: 0 50px;
+  font-size: 1.5rem;
   & span {
-    width: 12vw;
+    width: 15vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-variant: small-caps;
     & h5 {
+      margin-left: 20px;
       :hover {
         color: #909090;
         cursor: pointer;
@@ -21,14 +23,20 @@ export const StyledHomeHeader = styled.header`
     }
   }
   @media (max-width: 600px) {
+    padding: 0 5vw;
+    font-size: 1.1rem;
     & span {
       width: 40vw;
-      font-size: 0.8rem;
+      justify-content: space-around;
+
+      & h5 {
+        margin-left: 0px;
+      }
     }
   }
 `;
 export const StyledHomeHeaderIconsBar = styled.div`
-  width: 10vw;
+  width: 15vw;
   display: flex;
   flex-direction: row;
   align-items: center;

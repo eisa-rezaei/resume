@@ -1,13 +1,4 @@
-import styled, { keyframes } from "styled-components";
-
-const rotate = keyframes`
-from{
-transform: rotate(0deg);
-}
-to {
-transform: rotate(180deg);
-}
-`;
+import styled from "styled-components";
 
 export const StyledHomeMyAdvantage = styled.div`
   width: 100%;
@@ -19,6 +10,9 @@ export const StyledHomeMyAdvantage = styled.div`
   align-items: center;
   justify-content: flex-start;
   padding: 70px 0;
+  & h2 {
+    font-family: "Kaisei HarunoUmi", serif;
+  }
   @media (max-width: 600px) {
     padding: 40px 0;
     font-size: 1rem;
@@ -63,12 +57,14 @@ export const StyledHomeMyAdvantageSingle = styled.article`
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #e0e0e0;
+    background-color: #f0f0f0;
     border-radius: 80px;
 
     & svg {
-      font-size: 3.5rem;
+      font-size: 4rem;
       transition: all 0.2s ease;
+      filter: grayscale(100%);
+      transform: scale(1.3);
     }
     :hover {
       background: rgb(252, 245, 232);
@@ -79,25 +75,12 @@ export const StyledHomeMyAdvantageSingle = styled.article`
       );
       cursor: pointer;
       & svg {
-        color: seagreen;
-        font-size: 4rem;
+        filter: grayscale(0%);
+        color: darkviolet;
+        transform: scale(1.5);
       }
       & p {
         color: orange;
-      }
-    }
-  }
-  :nth-child(3) {
-    & span {
-      background: rgb(252, 245, 232);
-      background: radial-gradient(
-        circle,
-        rgba(252, 245, 232, 1) 26%,
-        rgba(237, 205, 252, 0.05694152661064422) 62%
-      );
-      & svg {
-        color: seagreen;
-        animation: ${rotate} linear 2s infinite;
       }
     }
   }

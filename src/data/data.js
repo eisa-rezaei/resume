@@ -1,9 +1,32 @@
-import flowApp from "../assets/flow-app-landing.png";
-import instagram from "../assets/instagram.jpeg";
-import headphone_market from "../assets/headphone.jpeg";
-import hotels_interview from "../assets/hotels.jpg";
-import flowers_app from "../assets/flowers.jpeg";
-import w3School_starter from "../assets/w3school.png";
+import flowApp from "../assets/projects/flow-app-landing.png";
+import instagram from "../assets/projects/instagram.jpeg";
+import headphone_market from "../assets/projects/headphone.jpeg";
+import hotels_interview from "../assets/projects/hotels.jpg";
+import flowers_app from "../assets/projects/flowers.jpeg";
+import w3School_starter from "../assets/projects/w3school.png";
+import FoxxyAppLanding from "../assets/projects/foxxy-app-landing.png";
+
+// import { FaReact } from "react-icons/fa";
+// import { SiRedux } from "react-icons/si";
+// import { ImHtmlFive2 } from "react-icons/im";
+// import { RiGatsbyFill } from "react-icons/ri";
+// import { IoLogoJavascript } from "react-icons/io";
+import { SiStyledComponents } from "react-icons/si";
+
+import { ReactComponent as Gatsby } from "../assets/svg/gatsbyjs.svg";
+import { ReactComponent as Html5 } from "../assets/svg/html-5.svg";
+import { ReactComponent as JavaScript } from "../assets/svg/javascript.svg";
+import { ReactComponent as Redux } from "../assets/svg/redux.svg";
+import { ReactComponent as React } from "../assets/svg/react.svg";
+
+export const ADVANTAGE = [
+  { icon: <Html5 />, title: "HTML5 / CSS3", percent: "80" },
+  { icon: <JavaScript />, title: "JS", percent: "60" },
+  { icon: <React />, title: "REACT", percent: "70" },
+  { icon: <Redux />, title: "REDUX", percent: "50" },
+  { icon: <SiStyledComponents />, title: "STYLED COMPONENTS", percent: "90" },
+  { icon: <Gatsby />, title: "GATSBY/NEXT", percent: "40" },
+];
 
 export const projects = [
   {
@@ -19,7 +42,7 @@ export const projects = [
     name: "Instagram App",
     image: instagram,
     platform: "gatsby.js",
-    output: "http://demo3.i3o.ir/",
+    output: "https://demo3.i3o.ir/",
     src: "https://github.com/eisa-rezaei/Instagram",
   },
   {
@@ -27,7 +50,7 @@ export const projects = [
     name: "Headphone Market",
     image: headphone_market,
     platform: "react.js",
-    output: "https://eisa-rezaei.github.io/Headphone-market/",
+    output: "https://http://demo4.i3o.ir/",
     src: "https://github.com/eisa-rezaei/Headphone-market",
   },
   {
@@ -54,49 +77,65 @@ export const projects = [
     output: "https://eisa-rezaei.github.io/SideBar/",
     src: "https://github.com/eisa-rezaei/SideBar",
   },
+  {
+    id: 7,
+    name: "Foxxy App landing",
+    image: FoxxyAppLanding,
+    platform: "react.js",
+    output: "https://demo5.i3o.ir/",
+    src: "https://github.com/eisa-rezaei/Flow-App-Landing",
+  },
 ];
 
 export const Education = {
-  first_part: {
-    title: "When I born",
-    caption: "I did't have any abilities when i was born",
-  },
-  secound_part: [
+  first_part: [
     {
       title: "HTML5 / CSS LEARNING",
       caption: "learning these languages with my univercity lessons",
     },
     {
-      title: "HTML5 / CSS LEARNING",
-      caption: "learning these languages with my univercity lessons",
-    },
-    {
-      title: "javaScript",
+      title: "JavaScript",
       caption: "learning Javascript",
     },
     {
-      title: "creatign simple projects",
+      title: "Creating simple projects",
       caption: "creating simple projects with my knowlege",
     },
     {
-      title: "working with HAMRAHAN IDEA PARDAZ",
-      caption: "start working as a junior junior web developer ",
+      title: "HAMRAHAN IDEA PARDAZ",
+      caption: "Started working as a junior web developer ",
+    },
+  ],
+  secound_part: [
+    {
+      title: "Javidan company ",
+      caption: "Working as a frontend developer doing template design ",
+    },
+    {
+      title: "Power Electirical Engineer",
+      caption: "Started my univercity as a power Electrical engineer student",
+    },
+    {
+      title: "learning REACT",
+      caption:
+        " I've started to learn REACT, I enjoyed it a lot, and I am trying my best to improve my react knowledge",
     },
   ],
   third_part: [
     {
-      title: "Start to learning REACT",
+      title: "English Academy",
       caption:
-        " I,ve started to learn REACT , I like that a lot and i am trying my best to imporve my react knowlege",
+        "start Learning English Language in Sharif academy as pre IELTS student",
     },
     {
-      title: "Redux state management libraries ",
-      caption: "start working as a junior junior web developer ",
+      title: "Redux",
+      caption:
+        "start to learning state management librareis and specifically react ",
     },
     {
       title: "Gradute from univercity ",
       caption:
-        "I,ve Graduted from univercity right now I am a power Electrical Engineer",
+        "I am Graduted from univercity right now I am power Electrical Engineer",
     },
     {
       title: " Next.js and Gatsby.js ",

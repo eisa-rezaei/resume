@@ -110,6 +110,7 @@ export const StyledHomeUserDetailSinglePartDetail = styled.div`
     }
     & p {
       width: 100%;
+      padding: 0 22vw;
       text-align: center;
     }
   }
