@@ -5,6 +5,7 @@ import hotels_interview from "../assets/projects/hotels.jpg";
 import flowers_app from "../assets/projects/flowers.jpeg";
 import w3School_starter from "../assets/projects/w3school.png";
 import FoxxyAppLanding from "../assets/projects/foxxy-app-landing.png";
+import Spotify from "../assets/projects/spotify.png";
 
 // import { FaReact } from "react-icons/fa";
 // import { SiRedux } from "react-icons/si";
@@ -84,6 +85,14 @@ export const projects = [
     platform: "react.js",
     output: "https://demo5.i3o.ir/",
     src: "https://github.com/eisa-rezaei/Flow-App-Landing",
+  },
+  {
+    id: 8,
+    name: "Spotify",
+    image: Spotify,
+    platform: "react.js",
+    output: "https://demo6.i3o.ir/",
+    src: "https://github.com/eisa-rezaei/Spotify",
   },
 ];
 
