@@ -16,8 +16,9 @@ export const StyledHomeTitle = styled.div`
     font-family: "Kaisei HarunoUmi", serif;
   }
   & a {
+    font-size: 16px;
     letter-spacing: 1px;
-    margin-top: 20px;
+    margin-top: 30px;
     text-decoration: underline;
     :hover {
       text-decoration: none;

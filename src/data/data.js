@@ -51,7 +51,7 @@ export const projects = [
     name: "Headphone Market",
     image: headphone_market,
     platform: "react.js",
-    output: "https://http://demo4.i3o.ir/",
+    output: "https://demo4.i3o.ir/",
     src: "https://github.com/eisa-rezaei/Headphone-market",
   },
   {
@@ -59,7 +59,7 @@ export const projects = [
     name: "Hotels Interview",
     image: hotels_interview,
     platform: "react.js",
-    output: "https://eisa-rezaei.github.io/Hotels-interview/",
+    output: "https://demo7.i3o.ir",
     src: "https://github.com/eisa-rezaei/Hotels-interview",
   },
   {
