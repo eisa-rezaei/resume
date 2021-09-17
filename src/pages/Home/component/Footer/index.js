@@ -5,8 +5,8 @@ import { StFooterContainer, StyledFooterIconsBar } from "./styles";
 const Footer = () => {
   return (
     <StFooterContainer>
-      <span>Personal Website</span>
-      <span> CopyRight EisaRezaei {new Date().getFullYear()} </span>
+      <h4>Personal Website</h4>
+      <h4> CopyRight EisaRezaei {new Date().getFullYear()} </h4>
       <StyledFooterIconsBar>
         <a
           href="https://instagram.com/Eisa_rezaeei"

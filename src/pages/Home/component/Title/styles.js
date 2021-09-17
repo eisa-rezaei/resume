@@ -33,5 +33,8 @@ export const StyledHomeTitle = styled.div`
       font-size: 1rem;
       text-align: center;
     }
+    & a {
+      margin-top: 10px;
+    }
   }
 `;

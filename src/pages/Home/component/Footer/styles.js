@@ -9,9 +9,13 @@ export const StFooterContainer = styled.main`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
   @media (max-width: 600px) {
-    padding: 35px;
-    font-size: 0.8rem;
+    padding: 15px;
+    font-size: 0.6rem;
+    & h4:first-child {
+      display: NONE;
+    }
   }
 `;
 

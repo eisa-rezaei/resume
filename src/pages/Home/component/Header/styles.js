@@ -16,6 +16,7 @@ export const StyledHomeHeader = styled.header`
     & a {
       margin-left: 20px;
       font-size: 1.2rem;
+      font-weight: 600;
       :hover {
         color: #909090;
         cursor: pointer;
@@ -23,13 +24,14 @@ export const StyledHomeHeader = styled.header`
     }
   }
   @media (max-width: 600px) {
-    padding: 0 5vw;
+    padding: 10px 5vw;
     font-size: 1.1rem;
     & span {
       width: 40vw;
       justify-content: space-around;
       & a {
         margin-left: 0px;
+        font-size: 0.8rem;
       }
     }
   }
