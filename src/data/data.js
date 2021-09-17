@@ -103,16 +103,16 @@ export const Education = {
       caption: "learning these languages with my univercity lessons",
     },
     {
-      title: "JavaScript",
-      caption: "learning Javascript",
+      title: "TOSAEH PAYDAR SABALAN ",
+      caption: "Started working as a beginner front end developer ",
     },
     {
       title: "Creating simple projects",
       caption: "creating simple projects with my knowlege",
     },
     {
-      title: "HAMRAHAN IDEA PARDAZ",
-      caption: "Started working as a junior web developer ",
+      title: "JavaScript",
+      caption: "learning Javascript",
     },
   ],
   secound_part: [
@@ -127,7 +127,11 @@ export const Education = {
     {
       title: "learning REACT",
       caption:
-        " I've started to learn REACT, I enjoyed it a lot, and I am trying my best to improve my react knowledge",
+        " I've started to learn REACT and i think this jslibrary is the best",
+    },
+    {
+      title: "HAMRAHAN IDEA PARDAZ",
+      caption: "Started working as a frontend react.js developer ",
     },
   ],
   third_part: [

@@ -15,6 +15,14 @@ export const StyledHomeTitle = styled.div`
     text-align: center;
     font-family: "Kaisei HarunoUmi", serif;
   }
+  & a {
+    letter-spacing: 1px;
+    margin-top: 20px;
+    text-decoration: underline;
+    :hover {
+      text-decoration: none;
+    }
+  }
 
   @media (max-width: 600px) {
     height: 20vh;

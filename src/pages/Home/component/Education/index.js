@@ -13,7 +13,7 @@ const index = () => {
       <h2>My Education & Experience</h2>
       <StyledHomeEducationSection>
         <StyledHomeEducationArticle>
-          <header> 2017 - 2019 </header>
+          <header> 2018 - 2019 </header>
           {Education.first_part.map(({ title, caption }, index) => (
             <span key={index}>
               <h5>{title}</h5>

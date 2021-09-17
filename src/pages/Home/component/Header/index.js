@@ -6,8 +6,8 @@ const index = () => {
   return (
     <StyledHomeHeader>
       <span>
-        <h5>works</h5>
-        <h5>contact</h5>
+        <a href="#LastestProjects">works</a>
+        <a href="#Circle">contact</a>
       </span>
       <StyledHomeHeaderIconsBar>
         <a

@@ -32,7 +32,7 @@ const Index = () => {
   }, []);
 
   return (
-    <StyledHomeLastestProjectCt>
+    <StyledHomeLastestProjectCt id="LastestProjects">
       <h2>My lastest Projects</h2>
       <StyledHomeLastestProject>
         <Swiper
