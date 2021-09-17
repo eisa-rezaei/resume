@@ -2,20 +2,20 @@ import styled from "styled-components";
 
 export const StyledHomeHeader = styled.header`
   width: 100%;
-  height: 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 50px;
+  padding: 20px 50px;
   font-size: 1.5rem;
   & span {
-    width: 15vw;
+    width: fit-content;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-variant: small-caps;
-    & h5 {
+    & a {
       margin-left: 20px;
+      font-size: 1.2rem;
       :hover {
         color: #909090;
         cursor: pointer;
@@ -28,8 +28,7 @@ export const StyledHomeHeader = styled.header`
     & span {
       width: 40vw;
       justify-content: space-around;
-
-      & h5 {
+      & a {
         margin-left: 0px;
       }
     }
@@ -37,10 +36,15 @@ export const StyledHomeHeader = styled.header`
 `;
 export const StyledHomeHeaderIconsBar = styled.div`
   width: 15vw;
+  height: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  & a {
+    display: flex;
+    align-items: center;
+  }
   & svg {
     cursor: pointer;
     :hover {
