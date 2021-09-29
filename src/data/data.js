@@ -21,12 +21,12 @@ import { ReactComponent as Redux } from "../assets/svg/redux.svg";
 import { ReactComponent as React } from "../assets/svg/react.svg";
 
 export const ADVANTAGE = [
-  { icon: <Html5 />, title: "HTML5 / CSS3", percent: "80" },
-  { icon: <JavaScript />, title: "JS", percent: "60" },
-  { icon: <React />, title: "REACT", percent: "70" },
-  { icon: <Redux />, title: "REDUX", percent: "50" },
+  { icon: <Html5 />, title: "HTML5 / CSS3", percent: "90" },
+  { icon: <JavaScript />, title: "JS", percent: "80" },
+  { icon: <React />, title: "REACT", percent: "80" },
+  { icon: <Redux />, title: "REDUX", percent: "90" },
   { icon: <SiStyledComponents />, title: "STYLED COMPONENTS", percent: "90" },
-  { icon: <Gatsby />, title: "GATSBY/NEXT", percent: "40" },
+  { icon: <Gatsby />, title: "GATSBY/NEXT", percent: "30" },
 ];
 
 export const projects = [
