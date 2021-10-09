@@ -1,33 +1,39 @@
 import React from "react";
-import Header from "./component/Header";
-import Title from "./component/Title";
-import UserDetail from "./component/UserDetail";
-import Advantage from "./component/Advantage";
-import Education from "./component/Education";
-import LastestProject from "./component/LastestProjects";
-import Circle from "./component/Circle";
+import { Suspense, lazy } from "react";
+
+import Loading from "../Loading";
 
 import { StyledHomeCt, StyledSpliceBorder } from "./styles";
 import Footer from "./component/Footer";
 
+const Header = lazy(() => import("./component/Header"));
+const Title = lazy(() => import("./component/Title"));
+const UserDetail = lazy(() => import("./component/UserDetail"));
+const Advantage = lazy(() => import("./component/Advantage"));
+const Education = lazy(() => import("./component/Education"));
+const Circle = lazy(() => import("./component/Circle"));
+const LastestProject = lazy(() => import("./component/LastestProjects"));
+
 const Home = () => {
   return (
-    <StyledHomeCt>
-      <Header />
-      <StyledSpliceBorder />
-      <Title />
-      <UserDetail />
-      <StyledSpliceBorder />
-      <Advantage />
-      <StyledSpliceBorder />
-      <Education />
-      <StyledSpliceBorder />
-      <LastestProject />
-      <StyledSpliceBorder />
-      <Circle />
-      <StyledSpliceBorder />
-      <Footer />
-    </StyledHomeCt>
+    <Suspense fallback={<Loading />}>
+      <StyledHomeCt>
+        <Header />
+        <StyledSpliceBorder />
+        <Title />
+        <UserDetail />
+        <StyledSpliceBorder />
+        <Advantage />
+        <StyledSpliceBorder />
+        <Education />
+        <StyledSpliceBorder />
+        <LastestProject />
+        <StyledSpliceBorder />
+        <Circle />
+        <StyledSpliceBorder />
+        <Footer />
+      </StyledHomeCt>
+    </Suspense>
   );
 };
 export default Home;

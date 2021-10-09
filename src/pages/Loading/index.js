@@ -1,7 +1,7 @@
 import React from "react";
 import { StLoading, StLoadingPageContainer } from "./styles";
 
-const index = () => {
+const Loading = () => {
   return (
     <StLoadingPageContainer>
       <h2>Loading...</h2>
@@ -21,4 +21,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Loading;

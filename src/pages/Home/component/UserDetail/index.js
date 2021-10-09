@@ -71,7 +71,7 @@ const index = () => {
           textalign="right"
         >
           <h5>PROJECTS DONE </h5>
-          <p>15</p>
+          <p>+20</p>
         </StyledHomeUserDetailSinglePartDetail>
       </StyledHomeUserDetailSinglePart>
     </StyledHomeUserDetail>

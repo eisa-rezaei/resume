@@ -1,4 +1,8 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+const fade = keyframes`
+from {transform:translateX(-100%);}
+to {transform:translateX(100%);}
+`;
 
 export const StyledHomeUserDetail = styled.section`
   width: 100%;
@@ -28,6 +32,21 @@ export const StyledHomeUserDetail = styled.section`
       object-fit: cover;
       border: 30px solid #fff;
       border-radius: 300px;
+      z-index: 2;
+      ::after {
+        height: 100%;
+        width: 100%;
+        content: "";
+        position: absolute;
+        background: linear-gradient(
+          -90deg,
+          rgba(255, 255, 255, 0) 0%,
+          rgba(255, 255, 255, 1) 50%,
+          rgba(255, 255, 255, 0) 100%
+        );
+        z-index: 1;
+        animation: ${fade} 1.5s infinite;
+      }
     }
   }
 

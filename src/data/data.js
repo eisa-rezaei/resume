@@ -7,11 +7,6 @@ import w3School_starter from "../assets/projects/w3school.png";
 import FoxxyAppLanding from "../assets/projects/foxxy-app-landing.png";
 import Spotify from "../assets/projects/spotify.png";
 
-// import { FaReact } from "react-icons/fa";
-// import { SiRedux } from "react-icons/si";
-// import { ImHtmlFive2 } from "react-icons/im";
-// import { RiGatsbyFill } from "react-icons/ri";
-// import { IoLogoJavascript } from "react-icons/io";
 import { SiStyledComponents } from "react-icons/si";
 
 import { ReactComponent as Gatsby } from "../assets/svg/gatsbyjs.svg";
@@ -110,10 +105,6 @@ export const Education = {
       title: "Creating simple projects",
       caption: "creating simple projects with my knowlege",
     },
-    {
-      title: "JavaScript",
-      caption: "learning Javascript",
-    },
   ],
   secound_part: [
     {
@@ -127,7 +118,7 @@ export const Education = {
     {
       title: "learning REACT",
       caption:
-        " I've started to learn REACT and i think this jslibrary is the best",
+        " I've started to learn REACT and i think this JS library is the best",
     },
     {
       title: "HAMRAHAN IDEA PARDAZ",
@@ -142,8 +133,7 @@ export const Education = {
     },
     {
       title: "Redux",
-      caption:
-        "start to learning state management librareis and specifically react ",
+      caption: "start to learning state management librareis ",
     },
     {
       title: "Gradute from univercity ",
@@ -151,9 +141,13 @@ export const Education = {
         "I am Graduted from univercity right now I am power Electrical Engineer",
     },
     {
-      title: " Next.js and Gatsby.js ",
+      title: "SSR & SSG",
       caption:
         "I am learnign these feachers right now and server side JavaScript",
+    },
+    {
+      title: "Freelance",
+      caption: "I am working as freelance frontend Developer",
     },
   ],
 };
