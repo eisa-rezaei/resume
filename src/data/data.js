@@ -1,11 +1,11 @@
-import flowApp from "../assets/projects/flow-app-landing.png";
+import flowApp from "../assets/projects/flow-app-landing.webp";
 import instagram from "../assets/projects/instagram.jpeg";
 import headphone_market from "../assets/projects/headphone.jpeg";
 import hotels_interview from "../assets/projects/hotels.jpg";
 import flowers_app from "../assets/projects/flowers.jpeg";
 import w3School_starter from "../assets/projects/w3school.jpg";
-import FoxxyAppLanding from "../assets/projects/foxxy-app-landing.jpg";
-import Spotify from "../assets/projects/spotify.png";
+import FoxxyAppLanding from "../assets/projects/foxxy-app-landing.webp";
+import Spotify from "../assets/projects/spotify.webp";
 
 import { SiStyledComponents } from "react-icons/si";
 
