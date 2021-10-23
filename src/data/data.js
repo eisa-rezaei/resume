@@ -95,59 +95,65 @@ export const Education = {
   first_part: [
     {
       title: "HTML5 / CSS LEARNING",
-      caption: "learning these languages with my univercity lessons",
+      caption: "learning these languages with my university lessons",
     },
     {
       title: "TOSAEH PAYDAR SABALAN ",
-      caption: "Started working as a beginner front end developer ",
+      caption: "Started working as a internship front end developer ",
     },
     {
       title: "Creating simple projects",
-      caption: "creating simple projects with my knowlege",
+      caption: "creating simple projects using jQuery and HTML/CSS",
     },
   ],
   secound_part: [
     {
       title: "Javidan company ",
-      caption: "Working as a frontend developer doing template design ",
+      caption:
+        "Working as a frontend developer doing template design, using React class components",
     },
     {
-      title: "Power Electirical Engineer",
-      caption: "Started my univercity as a power Electrical engineer student",
+      title: "Power Electrical Engineer",
+      caption: "Started my university as a power Electrical engineer student",
     },
     {
-      title: "learning REACT",
+      title: "learning REACT @^16.8",
       caption:
         " I've started to learn REACT and i think this JS library is the best",
     },
     {
       title: "HAMRAHAN IDEA PARDAZ",
-      caption: "Started working as a frontend react.js developer ",
+      caption:
+        "Started working as a frontend React.js developer, using Functional components ",
     },
-  ],
-  third_part: [
     {
       title: "English Academy",
       caption:
         "start Learning English Language in Sharif academy as pre IELTS student",
     },
+  ],
+  third_part: [
     {
-      title: "Redux",
-      caption: "start to learning state management librareis ",
+      title: "State management library",
+      caption: "I've started to learning Redux for manage states",
     },
     {
-      title: "Gradute from univercity ",
+      title: "Graduate from university ",
       caption:
-        "I am Graduted from univercity right now I am power Electrical Engineer",
+        "I've Graduated from university right now I am power Electrical Engineer",
     },
     {
       title: "SSR & SSG",
-      caption:
-        "I am learnign these feachers right now and server side JavaScript",
+      caption: "I've been trying to achieve Server Side Rendering Pages",
     },
     {
       title: "Freelance",
       caption: "I am working as freelance frontend Developer",
+    },
+    {
+      title: "PWA",
+      caption:
+        "I am trying to achieve knowledge about progressive web Application ",
     },
   ],
 };
