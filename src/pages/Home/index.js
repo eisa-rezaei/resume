@@ -12,7 +12,7 @@ const UserDetail = lazy(() => import("./component/UserDetail"));
 const Advantage = lazy(() => import("./component/Advantage"));
 const Education = lazy(() => import("./component/Education"));
 const Circle = lazy(() => import("./component/Circle"));
-const LastestProject = lazy(() => import("./component/LastestProjects"));
+import LastestProject from "./component/LastestProjects";
 
 const Home = () => {
   return (
