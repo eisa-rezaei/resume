@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.bd103e94.chunk.js",
-    "main.js.map": "/static/js/main.bd103e94.chunk.js.map",
+    "main.js": "/static/js/main.f967cc2a.chunk.js",
+    "main.js.map": "/static/js/main.f967cc2a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d2135c1e.js",
     "runtime-main.js.map": "/static/js/runtime-main.d2135c1e.js.map",
     "static/css/2.a8e8951b.chunk.css": "/static/css/2.a8e8951b.chunk.css",
@@ -26,7 +26,7 @@
     "static/js/2.1ced747c.chunk.js.LICENSE.txt": "/static/js/2.1ced747c.chunk.js.LICENSE.txt",
     "static/media/flow-app-landing.78cbf325.png": "/static/media/flow-app-landing.78cbf325.png",
     "static/media/flowers.e01a1902.jpeg": "/static/media/flowers.e01a1902.jpeg",
-    "static/media/foxxy-app-landing.7509d784.png": "/static/media/foxxy-app-landing.7509d784.png",
+    "static/media/foxxy-app-landing.011ed8d2.jpg": "/static/media/foxxy-app-landing.011ed8d2.jpg",
     "static/media/gatsbyjs.1552d014.svg": "/static/media/gatsbyjs.1552d014.svg",
     "static/media/headphone.8149bb97.jpeg": "/static/media/headphone.8149bb97.jpeg",
     "static/media/hotels.914a2bc7.jpg": "/static/media/hotels.914a2bc7.jpg",
@@ -37,12 +37,12 @@
     "static/media/redux.0a4a6ca2.svg": "/static/media/redux.0a4a6ca2.svg",
     "static/media/spotify.3ee586c6.png": "/static/media/spotify.3ee586c6.png",
     "static/media/user-image.26c291b2.png": "/static/media/user-image.26c291b2.png",
-    "static/media/w3school.5349eb08.png": "/static/media/w3school.5349eb08.png"
+    "static/media/w3school.3316f56c.jpg": "/static/media/w3school.3316f56c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d2135c1e.js",
     "static/css/2.a8e8951b.chunk.css",
     "static/js/2.1ced747c.chunk.js",
-    "static/js/main.bd103e94.chunk.js"
+    "static/js/main.f967cc2a.chunk.js"
   ]
 }
