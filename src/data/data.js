@@ -114,22 +114,22 @@ export const Education = {
     {
       title: "Javidan company ",
       caption:
-        "Working as a frontend developer doing template design, using React class components",
+        "Working as a frontend developer doing template design, using React class components.",
     },
     {
       title: "learning REACT @^16.8",
       caption:
-        " I've started to learn REACT and i think this JS library is the best",
+        " I've started to learn REACT and i think this JS library is the best.",
     },
     {
       title: "HAMRAHAN IDEA PARDAZ",
       caption:
-        "Started working as a frontend React.js developer, using Functional components ",
+        "Started working as a frontend React.js developer, using Functional components. ",
     },
     {
       title: "English Academy",
       caption:
-        "start Learning English Language in Sharif academy as pre IELTS student",
+        "start Learning English Language in Sharif academy as pre IELTS student.",
     },
   ],
   third_part: [
