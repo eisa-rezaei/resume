@@ -1,5 +1,5 @@
 import React from "react";
-import userImage from "../../../../assets/projects/user-image.png";
+import userImage from "../../../../assets/projects/user-image.webp";
 import {
   StyledHomeUserDetail,
   StyledHomeUserDetailSinglePart,
