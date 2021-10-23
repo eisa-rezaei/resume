@@ -95,7 +95,7 @@ export const Education = {
   first_part: [
     {
       title: "HTML5 / CSS LEARNING",
-      caption: "learning these languages with my university lessons",
+      caption: "start to thinking about how to make a Hello world! Website :] ",
     },
     {
       title: "TOSAEH PAYDAR SABALAN ",
@@ -105,16 +105,16 @@ export const Education = {
       title: "Creating simple projects",
       caption: "creating simple projects using jQuery and HTML/CSS",
     },
+    {
+      title: "Power Electrical Engineer",
+      caption: "Started my university as a power Electrical engineer student",
+    },
   ],
   secound_part: [
     {
       title: "Javidan company ",
       caption:
         "Working as a frontend developer doing template design, using React class components",
-    },
-    {
-      title: "Power Electrical Engineer",
-      caption: "Started my university as a power Electrical engineer student",
     },
     {
       title: "learning REACT @^16.8",
@@ -135,25 +135,25 @@ export const Education = {
   third_part: [
     {
       title: "State management library",
-      caption: "I've started to learning Redux for manage states",
+      caption: "I've started to learning Redux for manage states.",
     },
     {
-      title: "Graduate from university ",
+      title: "Graduate from university",
       caption:
-        "I've Graduated from university right now I am power Electrical Engineer",
+        "I've Graduated from university right now I am power Electrical Engineer.",
     },
     {
       title: "SSR & SSG",
-      caption: "I've been trying to achieve Server Side Rendering Pages",
+      caption: "I've been trying to achieve Server Side Rendering.",
     },
     {
       title: "Freelance",
-      caption: "I am working as freelance frontend Developer",
+      caption: "I am working as freelance frontend Developer.",
     },
     {
       title: "PWA",
       caption:
-        "I am trying to achieve knowledge about progressive web Application ",
+        "I am trying to achieve knowledge about progressive web Application.",
     },
   ],
 };
