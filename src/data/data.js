@@ -6,6 +6,8 @@ import flowers_app from "../assets/projects/flowers.jpeg";
 import w3School_starter from "../assets/projects/w3school.webp";
 import FoxxyAppLanding from "../assets/projects/foxxy-app-landing.webp";
 import Spotify from "../assets/projects/spotify.webp";
+import Crypto from "../assets/projects/crypto.webp";
+import Banks from "../assets/projects/banks.webp";
 
 import { SiStyledComponents } from "react-icons/si";
 
@@ -88,6 +90,22 @@ export const projects = [
     platform: "react.js",
     output: "https://demo6.i3o.ir/",
     src: "https://github.com/eisa-rezaei/Spotify",
+  },
+  {
+    id: 9,
+    name: "Banks",
+    image: Banks,
+    platform: "react.js",
+    output: "https://demo10.i3o.ir/",
+    src: "https://github.com/eisa-rezaei/bank",
+  },
+  {
+    id: 10,
+    name: "Crypto",
+    image: Crypto,
+    platform: "react.js",
+    output: "https://demo11.i3o.ir/",
+    src: "https://github.com/eisa-rezaei/crypto",
   },
 ];
 
