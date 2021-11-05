@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.b628d77a.chunk.js",
-    "main.js.map": "/static/js/main.b628d77a.chunk.js.map",
+    "main.js": "/static/js/main.fb7793bb.chunk.js",
+    "main.js.map": "/static/js/main.fb7793bb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3d39deaf.js",
     "runtime-main.js.map": "/static/js/runtime-main.3d39deaf.js.map",
     "static/css/2.3a1e983a.chunk.css": "/static/css/2.3a1e983a.chunk.css",
@@ -21,6 +21,7 @@
     "static/media/html-5.cdf588f5.svg": "/static/media/html-5.cdf588f5.svg",
     "static/media/instagram.254607ef.webp": "/static/media/instagram.254607ef.webp",
     "static/media/javascript.081325c6.svg": "/static/media/javascript.081325c6.svg",
+    "static/media/jupiter.7f85fe3d.webp": "/static/media/jupiter.7f85fe3d.webp",
     "static/media/react.867e22e5.svg": "/static/media/react.867e22e5.svg",
     "static/media/redux.0a4a6ca2.svg": "/static/media/redux.0a4a6ca2.svg",
     "static/media/spotify.e82266f0.webp": "/static/media/spotify.e82266f0.webp",
@@ -31,6 +32,6 @@
     "static/js/runtime-main.3d39deaf.js",
     "static/css/2.3a1e983a.chunk.css",
     "static/js/2.b311071a.chunk.js",
-    "static/js/main.b628d77a.chunk.js"
+    "static/js/main.fb7793bb.chunk.js"
   ]
 }
