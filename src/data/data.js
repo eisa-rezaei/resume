@@ -8,22 +8,23 @@ import FoxxyAppLanding from "../assets/projects/foxxy-app-landing.webp";
 import Spotify from "../assets/projects/spotify.webp";
 import Crypto from "../assets/projects/crypto.webp";
 import Banks from "../assets/projects/banks.webp";
+import Jupiter from "../assets/projects/jupiter.webp";
 
-import { SiStyledComponents } from "react-icons/si";
+import {SiStyledComponents} from "react-icons/si";
 
-import { ReactComponent as Gatsby } from "../assets/svg/gatsbyjs.svg";
-import { ReactComponent as Html5 } from "../assets/svg/html-5.svg";
-import { ReactComponent as JavaScript } from "../assets/svg/javascript.svg";
-import { ReactComponent as Redux } from "../assets/svg/redux.svg";
-import { ReactComponent as React } from "../assets/svg/react.svg";
+import {ReactComponent as Gatsby} from "../assets/svg/gatsbyjs.svg";
+import {ReactComponent as Html5} from "../assets/svg/html-5.svg";
+import {ReactComponent as JavaScript} from "../assets/svg/javascript.svg";
+import {ReactComponent as Redux} from "../assets/svg/redux.svg";
+import {ReactComponent as React} from "../assets/svg/react.svg";
 
 export const ADVANTAGE = [
-  { icon: <Html5 />, title: "HTML5 / CSS3", percent: "90" },
-  { icon: <JavaScript />, title: "JS", percent: "80" },
-  { icon: <React />, title: "REACT", percent: "80" },
-  { icon: <Redux />, title: "REDUX", percent: "90" },
-  { icon: <SiStyledComponents />, title: "STYLED COMPONENTS", percent: "90" },
-  { icon: <Gatsby />, title: "GATSBY/NEXT", percent: "30" },
+  {icon: <Html5 />, title: "HTML5 / CSS3", percent: "90"},
+  {icon: <JavaScript />, title: "JS", percent: "80"},
+  {icon: <React />, title: "REACT", percent: "80"},
+  {icon: <Redux />, title: "REDUX", percent: "90"},
+  {icon: <SiStyledComponents />, title: "STYLED COMPONENTS", percent: "90"},
+  {icon: <Gatsby />, title: "GATSBY/NEXT", percent: "30"},
 ];
 
 export const projects = [
@@ -106,6 +107,14 @@ export const projects = [
     platform: "react.js",
     output: "https://demo11.i3o.ir/",
     src: "https://github.com/eisa-rezaei/crypto",
+  },
+  {
+    id: 11,
+    name: "Jupiter",
+    image: Jupiter,
+    platform: "react Typescript",
+    output: "https://demo13.i3o.ir/",
+    src: "https://github.com/eisa-rezaei/jupiter",
   },
 ];
 
