@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from "react";
+import {useState, useEffect, useCallback} from "react";
 
 export const useSizeCheckker = () => {
   const [sizeCheck, setSizeCheck] = useState(window.innerWidth > 600);
@@ -9,10 +9,7 @@ export const useSizeCheckker = () => {
   }, [width]);
 
   useEffect(() => {
-    const event = window.addEventListener("resize", checkSize);
-    return () => {
-      window.removeEventListener(event);
-    };
+    window.addEventListener("resize", checkSize);
   }, [width, checkSize]);
 
   return sizeCheck;
