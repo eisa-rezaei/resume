@@ -9,7 +9,6 @@ export const StyledHomeLastestProjectCt = styled.div`
   & h2 {
     font-size: 2.3rem;
     margin-bottom: 40px;
-    font-family: "Kaisei HarunoUmi", serif;
   }
   @media (max-width: 600px) {
     & h2 {
@@ -91,19 +90,6 @@ export const StyledHomeLastestProjectSingleProjectFooter = styled.footer`
       & svg {
         font-size: 0.8rem;
       }
-    }
-  }
-`;
-export const StyledSingleProjectFooterInfo = styled.div`
-  display: flex;
-  flex-direction: column;
-  color: #fff;
-  & p {
-    font-size: 0.8rem;
-  }
-  @media (max-width: 600px) {
-    & p {
-      font-size: 0.6rem;
     }
   }
 `;

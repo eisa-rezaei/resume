@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled, {keyframes} from "styled-components";
 
 const fade = keyframes`
 from {transform:translateX(-100%);}
@@ -52,7 +52,6 @@ export const StCirCleContent = styled.div`
   }
   & h2 {
     margin-top: 10px;
-    font-family: "Kaisei HarunoUmi", serif;
     line-height: 2.2rem;
     z-index: 2;
   }

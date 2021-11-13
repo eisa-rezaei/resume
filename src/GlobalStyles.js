@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import {createGlobalStyle} from "styled-components";
 
 export const GlobalStyling = createGlobalStyle`
   *{
@@ -6,12 +6,13 @@ export const GlobalStyling = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     scroll-behavior: smooth;
   }
   body {
     background-color: #fff;
     user-select: none;
+    line-height: 1;
+    font-family: "Changa", sans-serif;
   }
   a {
     color: inherit;
@@ -30,6 +31,10 @@ export const GlobalStyling = createGlobalStyle`
     background-color: inherit;
     cursor: pointer;
   }
+
+h1,h2,h3 {
+  line-height: 2;
+}
 
   @media (max-width : 600px){
   p {

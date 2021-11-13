@@ -13,7 +13,6 @@ export const StyledHomeTitle = styled.div`
     width: 100%;
     font-size: 2.5rem;
     text-align: center;
-    font-family: "Kaisei HarunoUmi", serif;
   }
   & a {
     font-size: 16px;

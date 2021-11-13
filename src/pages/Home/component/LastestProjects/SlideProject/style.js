@@ -57,11 +57,27 @@ export const StyledHomeLastestProjectSingleProjectFooter = styled.footer`
     }
   }
   @media (max-width: 600px) {
+    padding: 0 10px;
+    height: 40px;
     & span {
       width: 40px;
       & svg {
         font-size: 0.8rem;
       }
+    }
+  }
+`;
+
+export const StyledSingleProjectFooterInfo = styled.div`
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  & p {
+    font-size: 0.8rem;
+  }
+  @media (max-width: 600px) {
+    & p {
+      font-size: 0.6rem;
     }
   }
 `;

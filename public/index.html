@@ -9,15 +9,10 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="maskable" href="%PUBLIC_URL%/maskable_icon.png" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap"
       rel="stylesheet"
     />
     <title>Resume Eisa Rezaei</title>
@@ -27,142 +22,49 @@
         padding: 0;
         box-sizing: border-box;
       }
-      @keyframes skeleton {
-        from {
-          transform: translateX(-100%);
+      @keyframes rotation {
+        0% {
+          transform: rotate(0deg);
+          border-top: 2px solid #aa00aa;
         }
-        to {
-          transform: translateX(100%);
+        50% {
+          border-top: 4px solid #aa00aa;
+        }
+        100% {
+          transform: rotate(360deg);
+          border-top: 2px solid #aa00aa;
         }
       }
-      a {
-        text-decoration: none;
-        color: inherit;
-      }
-      .offline-page {
+      .pre-content {
         min-width: 100vw;
         min-height: 100vh;
+        color: #222;
         display: flex;
-        align-self: flex-start;
         flex-direction: column;
-        justify-content: center;
-      }
-      .offline-page .header {
-        width: 100%;
-        display: flex;
         align-items: center;
-        justify-content: space-between;
-        padding: 20px 50px;
-        font-size: 1.5rem;
-        border-bottom: 1px solid #909090;
-        z-index: 2;
+        justify-content: center;
+        background-color: #fff;
+        font-family: "Changa", sans-serif;
       }
-      .header span {
-        width: fit-content;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        font-variant: small-caps;
-      }
-      .header span a {
-        margin-left: 20px;
-        font-size: 1.2rem;
-        font-weight: 600;
-      }
-      .header span a :hover {
-        color: #909090;
-        cursor: pointer;
-      }
-      @media (max-width: 600px) {
-        .header {
-          padding: 10px 5vw;
-          font-size: 1.1rem;
-        }
-        .header span {
-          width: 40vw;
-          justify-content: space-around;
-        }
-        .header span a {
-          margin-left: 0px;
-          font-size: 0.8rem;
-        }
-      }
-      .content {
-        width: 100;
-        min-height: 90vh;
-        padding: 40px;
-        text-align: center;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        background-color: #e0e0e0;
-      }
-      .content::before {
-        content: "";
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(
-          -90deg,
-          rgba(255, 255, 255, 0) 0%,
-          rgba(255, 255, 255, 1) 50%,
-          rgba(255, 255, 255, 0) 100%
-        );
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 1;
-        animation: skeleton ease-in infinite 2s;
+      .pre-content span {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        border: 2px solid #484a4d;
+        border-top: 2px solid #aa77aa;
+        animation: rotation infinite 1s linear;
       }
     </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
-      <div class="offline-page">
-        <header class="header">
-          <span>
-            <a href="LastestProjects">works</a>
-            <a href="Circle">contact</a>
-          </span>
-          <div class="icons-bar">
-            <a
-              href="https://instagram.com/Eisa_rezaeei"
-              target="_blank"
-              rel="noreferrer"
-            >
-              1
-            </a>
-            <a
-              href="https://t.me/Eisa_Rezaeei"
-              target="_blank"
-              rel="noreferrer"
-            >
-              2
-            </a>
-            <a
-              href="https://github.com/eisa-rezaei"
-              target="_blank"
-              rel="noreferrer"
-            >
-              3
-            </a>
-            <a
-              href="https://linkedin.com/in/eisa-rezaei"
-              target="_blank"
-              rel="noreferrer"
-            >
-              4
-            </a>
-          </div>
-        </header>
-        <div class="content"><h1>Loading ...</h1></div>
+      <div class="pre-content">
+        <span></span>
+        <h1>Loading ...</h1>
+        <p>Eisa Rezaei's personal website</p>
       </div>
     </div>
-    <script>
-      if ("serviceWorker" in navigator) {
-        window.addEventListener("load", () => {
-          navigator.serviceWorker.register("/service-worker.js");
-        });
-      }
-    </script>
   </body>
 </html>

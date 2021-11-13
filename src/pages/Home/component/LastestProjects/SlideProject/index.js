@@ -1,11 +1,11 @@
 import React from "react";
-import { BiLinkExternal } from "react-icons/bi";
-import { FaGithub } from "react-icons/fa";
+import {BiLinkExternal} from "react-icons/bi";
+import {FaGithub} from "react-icons/fa";
 import {
   StyledHomeLastestProjectSingleProject,
   StyledHomeLastestProjectSingleProjectFooter,
   StyledSingleProjectFooterInfo,
-} from "../styles";
+} from "./style";
 
 const SliceProject = ({
   output,
