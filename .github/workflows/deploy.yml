@@ -20,7 +20,7 @@ jobs:
       - name: Build 🧩
         run: yarn run build
         env:
-          CI: false
+          CI: true
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
