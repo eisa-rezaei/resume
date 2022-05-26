@@ -10,9 +10,6 @@ export const StyledHomeMyAdvantage = styled.div`
   align-items: center;
   justify-content: flex-start;
   padding: 70px 0;
-  & h2 {
-    font-family: "Kaisei HarunoUmi", serif;
-  }
   @media (max-width: 600px) {
     padding: 40px 0;
     font-size: 1rem;
@@ -44,11 +41,6 @@ export const StyledHomeMyAdvantageSingle = styled.article`
   align-items: flex-start;
   overflow: hidden;
 
-  & p {
-    width: 100%;
-    text-align: center;
-  }
-
   & span {
     width: 90%;
     height: 100%;
@@ -59,6 +51,11 @@ export const StyledHomeMyAdvantageSingle = styled.article`
     justify-content: space-evenly;
     background-color: #f0f0f0;
     border-radius: 80px;
+
+    & p {
+      width: 100%;
+      text-align: center;
+    }
 
     & svg {
       font-size: 4rem;

@@ -1,5 +1,5 @@
 import React from "react";
-import { ADVANTAGE } from "../../../../data/data";
+import {ADVANTAGE} from "../../../../data/data";
 
 import {
   StyledHomeMyAdvantage,
@@ -12,13 +12,12 @@ const index = () => {
     <StyledHomeMyAdvantage>
       <h2>My Advantage</h2>
       <StyledHomeMyAdvantageIconsBar>
-        {ADVANTAGE.map(({ icon, title, percent }, index) => (
+        {ADVANTAGE.map(({icon, title}, index) => (
           <StyledHomeMyAdvantageSingle key={index}>
             <span>
               {icon}
-              <p>{percent}%</p>
+              <p>{title}</p>
             </span>
-            <p>{title}</p>
           </StyledHomeMyAdvantageSingle>
         ))}
       </StyledHomeMyAdvantageIconsBar>

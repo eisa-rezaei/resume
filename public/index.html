@@ -2,26 +2,69 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" id="icon" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Eisa Rezaei's Personal Website" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="maskable" href="%PUBLIC_URL%/maskable_icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap"
       rel="stylesheet"
     />
     <title>Resume Eisa Rezaei</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      @keyframes rotation {
+        0% {
+          transform: rotate(0deg);
+          border-top: 2px solid #aa00aa;
+        }
+        50% {
+          border-top: 4px solid #aa00aa;
+        }
+        100% {
+          transform: rotate(360deg);
+          border-top: 2px solid #aa00aa;
+        }
+      }
+      .pre-content {
+        min-width: 100vw;
+        min-height: 100vh;
+        color: #222;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        font-family: "Changa", sans-serif;
+      }
+      .pre-content span {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        border: 2px solid #484a4d;
+        border-top: 2px solid #aa77aa;
+        animation: rotation infinite 1s linear;
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+      <div class="pre-content">
+        <span></span>
+        <h1>Loading ...</h1>
+        <p>Eisa Rezaei's personal website</p>
+      </div>
+    </div>
   </body>
 </html>

@@ -19,12 +19,12 @@ import {ReactComponent as Redux} from "../assets/svg/redux.svg";
 import {ReactComponent as React} from "../assets/svg/react.svg";
 
 export const ADVANTAGE = [
-  {icon: <Html5 />, title: "HTML5 / CSS3", percent: "90"},
-  {icon: <JavaScript />, title: "JS", percent: "80"},
-  {icon: <React />, title: "REACT", percent: "80"},
-  {icon: <Redux />, title: "REDUX", percent: "90"},
-  {icon: <SiStyledComponents />, title: "STYLED COMPONENTS", percent: "90"},
-  {icon: <Gatsby />, title: "GATSBY/NEXT", percent: "30"},
+  {icon: <Html5 />, title: "HTML5 / CSS3"},
+  {icon: <JavaScript />, title: "JS"},
+  {icon: <React />, title: "REACT"},
+  {icon: <Redux />, title: "REDUX"},
+  {icon: <SiStyledComponents />, title: "STYLED COMPONENTS"},
+  {icon: <Gatsby />, title: "GATSBY/NEXT"},
 ];
 
 export const projects = [
@@ -145,8 +145,7 @@ export const Education = {
     },
     {
       title: "learning REACT @^16.8",
-      caption:
-        " I've started to learn REACT and i think this JS library is the best.",
+      caption: " I've started to learn REACT Functional components.",
     },
     {
       title: "HAMRAHAN IDEA PARDAZ",
@@ -158,12 +157,12 @@ export const Education = {
       caption:
         "start Learning English Language in Sharif academy as pre IELTS student.",
     },
-  ],
-  third_part: [
     {
       title: "State management library",
       caption: "I've started to learning Redux for manage states.",
     },
+  ],
+  third_part: [
     {
       title: "Graduate from university",
       caption:
@@ -181,6 +180,10 @@ export const Education = {
       title: "PWA",
       caption:
         "I am trying to achieve knowledge about progressive web Application.",
+    },
+    {
+      title: "TypeScript",
+      caption: "Started to use TypeScript with react",
     },
   ],
 };
