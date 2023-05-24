@@ -16,14 +16,14 @@ const index = () => {
         <StyledHomeUserDetailSinglePartDetail>
           <h5>BIOGRAPHY</h5>
           <p>
-            I am jesus, A frontend technologies curios person who is trying
+            I am EISA, A frontend technologies curios person who is trying
             every new library a day after release.
           </p>
         </StyledHomeUserDetailSinglePartDetail>
         <StyledHomeUserDetailSinglePartDetail>
           <h5>CONTACT</h5>
           <p>
-            ARDABIL, IRAN <br />
+            TEHRAN, IRAN <br />
             eisa.eisa.r.r@gmail.com <br />
             +98 930 961 3322
           </p>
@@ -47,7 +47,7 @@ const index = () => {
           textalign="right"
         >
           <h5>years of Experience</h5>
-          <p>3</p>
+          <p>5</p>
         </StyledHomeUserDetailSinglePartDetail>
         <StyledHomeUserDetailSinglePartDetail
           align="flex-end"
@@ -55,7 +55,7 @@ const index = () => {
           textalign="right"
         >
           <h5>SATISFITATION CLIENTS</h5>
-          <p>100%</p>
+          <p>99.98%</p>
         </StyledHomeUserDetailSinglePartDetail>
         <StyledHomeUserDetailSinglePartDetail
           align="flex-end"
@@ -63,7 +63,7 @@ const index = () => {
           textalign="right"
         >
           <h5>CLIENTS ON WORLDWIDE</h5>
-          <p>+5</p>
+          <p>+8</p>
         </StyledHomeUserDetailSinglePartDetail>
         <StyledHomeUserDetailSinglePartDetail
           align="flex-end"
@@ -71,7 +71,7 @@ const index = () => {
           textalign="right"
         >
           <h5>PROJECTS DONE </h5>
-          <p>+20</p>
+          <p>+40</p>
         </StyledHomeUserDetailSinglePartDetail>
       </StyledHomeUserDetailSinglePart>
     </StyledHomeUserDetail>
