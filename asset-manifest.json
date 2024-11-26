@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.16b30b62.chunk.js",
-    "main.js.map": "/static/js/main.16b30b62.chunk.js.map",
+    "main.js": "/static/js/main.d0b90bf0.chunk.js",
+    "main.js.map": "/static/js/main.d0b90bf0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.60681c82.js",
     "runtime-main.js.map": "/static/js/runtime-main.60681c82.js.map",
     "static/css/2.c8ec9750.chunk.css": "/static/css/2.c8ec9750.chunk.css",
@@ -23,6 +23,7 @@
     "static/media/html-5.cdf588f5.svg": "/static/media/html-5.cdf588f5.svg",
     "static/media/instagram.254607ef.webp": "/static/media/instagram.254607ef.webp",
     "static/media/javascript.081325c6.svg": "/static/media/javascript.081325c6.svg",
+    "static/media/jsQuestions.6293cd4d.webp": "/static/media/jsQuestions.6293cd4d.webp",
     "static/media/jupiter.7f85fe3d.webp": "/static/media/jupiter.7f85fe3d.webp",
     "static/media/react.867e22e5.svg": "/static/media/react.867e22e5.svg",
     "static/media/redux.0a4a6ca2.svg": "/static/media/redux.0a4a6ca2.svg",
@@ -34,6 +35,6 @@
     "static/js/runtime-main.60681c82.js",
     "static/css/2.c8ec9750.chunk.css",
     "static/js/2.296a0cc2.chunk.js",
-    "static/js/main.16b30b62.chunk.js"
+    "static/js/main.d0b90bf0.chunk.js"
   ]
 }
