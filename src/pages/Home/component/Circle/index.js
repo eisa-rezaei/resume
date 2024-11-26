@@ -8,7 +8,7 @@ const Circle = () => {
       <a href="mailto:Eisa.eisa.r.r@gamil.com" target="_blank" rel="noreferrer">
         <StCirCleContent>
           <p>Contact and call for coding</p>
-          <h2>Call Jesus</h2>
+          <h2>Call Me</h2>
           <ImArrowUpRight2 />
         </StCirCleContent>
       </a>
