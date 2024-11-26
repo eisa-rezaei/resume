@@ -9,6 +9,7 @@ import Spotify from "../assets/projects/spotify.webp";
 import Crypto from "../assets/projects/crypto.webp";
 import Banks from "../assets/projects/banks.webp";
 import Jupiter from "../assets/projects/jupiter.webp";
+import JSQuestions from "../assets/projects/jsQuestions.webp"
 
 import {SiStyledComponents} from "react-icons/si";
 
@@ -115,6 +116,14 @@ export const projects = [
     platform: "react Typescript",
     output: "https://demo13.i3o.ir/",
     src: "https://github.com/eisa-rezaei/jupiter",
+  },
+  {
+    id: 12,
+    name: "Js Questions",
+    image: JSQuestions,
+    platform: "Markdown Book",
+    output: "https://js.mariotek.ir/",
+    src: "https://github.com/Mariotek/javascript-persian-interview-questions",
   },
 ];
 

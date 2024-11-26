@@ -106,8 +106,8 @@ export const StyledHomeUserDetailSinglePartDetail = styled.div`
   justify-content: space-evenly;
   & h5 {
     width: 6rem;
-    color: #d0d0d0;
-    font-size: 0.8rem;
+    color: #02559e;
+    font-size: 0.85rem;
     font-variant: small-caps;
     text-align: ${(props) => props.textalign};
   }
